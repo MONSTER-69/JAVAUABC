@@ -1,0 +1,18 @@
+clase
+objeto
+encapsulamineto 
+metodos de acceso
+
+encapsulamiento: el encapsulamiento se da cuando se encapsula toda una clase dentro de una objeto. entonces el objeto encapsuala atributos y metodos,
+
+static es una propiedad que puede ser del metodo o de los atributos de la clase que nos permite acceder a ellos sin necesidad de una instancia. 
+
+si no esta definido estatico debemos hacer una instancia en ella.
+
+para cunetiones mas generales y algo temporal podemos hacer un atributo static, para eso la declaramos de manera global. 
+
+una elemnto static no representa al objeto. osea son atributos que estaran involucradas en nuestra clase. 
+
+para acceder atravez de un objeto a sus atributos no se peude acceder al menos que sean estaticos, 
+
+

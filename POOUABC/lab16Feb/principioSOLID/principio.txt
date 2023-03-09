@@ -1,0 +1,19 @@
+que es el principio de solid? 
+
+es el acronimo de 5 principio (estan en la presentacion), 
+
+S=responsabilidad unica
+
+lo que dice este principio una clase debe de tener una sola razon para cambiar, lo que significa uqe una clase solo debe tener un solo trabajo, como detectar el fallo de este principio
+cunado una clase se involucra en mas de una capa de la arquitectura. 
+
+numeros de metodos publicos, si una clase tiene deaciados metodos, debemos separarlos en clases diferentes, si nos cuesta hacer test de la clase, si no conseguimos la granudaridad deseada 
+
+capa de persistencia, es las mas baja donde se guardan los datos. 
+
+set establece un valor o cambiar el estado del atributo relacionado
+si se quiere saber los datos se usa el (get), get no resive parametros, pero si devuvle un tipo de dato.  
+
+vinculo de composicion, es cunado una clase necesita de otra para existir, 
+
+

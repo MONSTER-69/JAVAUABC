@@ -1,0 +1,38 @@
+while
+    un conjunto de instrucciones que se deben de repetir mientras que la respuesta a la expresión que se coloca dentro del sí mbolo de decisión sea VERDADERA, por lo tanto cuando 
+    la respuesta a la condición sea FALSA se continua con la siguiente instrucción es decir sale del ciclo.
+
+    sintaxis
+
+    inicializacion;
+
+    while(condicion){ 
+
+        instrucciones;
+    }
+    
+
+do-while 
+    la condicion se comprueba al final del blucle, por lo que el bloque de instruccones se ejecua al menos 1 vez, 
+    sintaxis 
+
+    do{ inicio del do-while
+        instruccones;
+    }while(condcion);
+
+    instruccones2;
+
+ciclo for 
+    un for hace que un bloque de instrucciones se repita un numero de veces determinada mientras se cumpla la condicion 
+
+    sintaxis 
+
+    for(inicializacion;condicion;incremento/decremento){
+
+        instrucciones;
+    }
+
+    mientras la condicion se cumpla funcionara el bloque de instrucciones de los ciclos. 
+
+
+    
