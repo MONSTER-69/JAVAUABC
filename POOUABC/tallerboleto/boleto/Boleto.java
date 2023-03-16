@@ -28,6 +28,33 @@ public class Boleto  {
         this.tiempo=new Tiempo();
     }
 
+    //LABORATORIO 2 METODOS DE INSTANCIA Y CLASE, SOBRECARGA DE METODOS
+
+
+    //estabelcemos los contructores de la clase boleto los cuales reciven 4 y 6 parametros.
+    public Boleto(int dia,int mes,int hora,int minuto){
+        
+        this.fecha.setDia(dia);
+        this.fecha.setMes(mes);
+        this.tiempo.setHora(hora);
+        this.tiempo.setMinuto(minuto);
+
+
+    }
+
+    public Boleto(int dia,int mes,int anio,int horas,int minuto,int segundo){
+
+        this.fecha.setDia(dia);
+        this.fecha.setMes(mes);
+        this.fecha.setAnio(anio);
+        this.tiempo.setHora(horas);
+        this.tiempo.setMinuto(minuto);
+        this.tiempo.setSegundo(segundo);
+    }
+    //final de los construcotres
+
+
+
     public void setCodigoBarras(String Codigo_Barras){
 
         this.Codigo_Barras=Codigo_Barras;
@@ -110,6 +137,7 @@ public class Boleto  {
 
         return fecha;
     }
+    /* 
 
     public void ValidarFecha(int dia,int mes,int anio){
 
@@ -128,7 +156,7 @@ public class Boleto  {
             System.out.print("\nel mes esta fuera de rango [1,12]");
         }
 
-    }
+    }*/
 
     public void setTiempo(int hora,int minuto,int segundo){
 
@@ -144,7 +172,7 @@ public class Boleto  {
         return tiempo;
     }
 
-
+    /* 
     public void ValidarTiempo(int horas,int minutos, int segundos){
 
 
@@ -169,7 +197,7 @@ public class Boleto  {
         else{
             System.out.print("\nlas horas estan fuera de rango[1,60]");
         }
-    }
+    }*/
 
 
     public static void main(String[] args){
@@ -183,6 +211,17 @@ public class Boleto  {
 
         entrada.setTiempo(2, 34, 34);
 
+
+        Fecha Entrada_Fecha=entrada.getEntradaFecha();
+        Tiempo Entrada_Tiempo=entrada.getEntradaHora();
+        Fecha Salida_Fecha=entrada.getSalidaFecha();
+        Tiempo Salida_Hora=entrada.getSalidaHora();
+
+        System.out.println("la fecha de entrada es: "+ Entrada_Fecha.getDia()+"/"+Entrada_Fecha.getMes()+"/"+Entrada_Fecha.getAnio());
+        System.out.println("la hora de intrada es: "+Entrada_Tiempo.getHora()+":"+Entrada_Tiempo.getMinuto()+":"+Entrada_Tiempo.getSegundo());
+
+        System.out.println("la fecha de salida es: "+Salida_Fecha.getDia()+"/"+Salida_Fecha.getMes()+"/"+Salida_Fecha.getAnio());
+        System.out.println("la hora de salida fue: "+Salida_Hora.getHora()+":"+Salida_Hora.getMinuto()+":"+Salida_Hora.getSegundo());
 
         
 

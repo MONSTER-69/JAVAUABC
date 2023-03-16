@@ -1,0 +1,8 @@
+metodos de clase: los metodos de clase no operan sobre los atributos de las instancias (objetos) ouden trabajar con los atributos pero no cambiar sus estados (valores)
+
+la palabra staic determina la declaracion de un metodo de clase. 
+
+cuando utilizar los metodos de la clsae (static), cuando sea un tipo de operacion o validacion sobre los atributos de las instancias sin cambiar su estado (valor)
+
+clase, instancias, objeto,meotodos,metodos de intancia,modificadores de acceso (public, private), abstraccon,uml, compuestas
+
