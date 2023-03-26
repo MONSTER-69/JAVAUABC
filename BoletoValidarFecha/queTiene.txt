@@ -1,0 +1,1 @@
+en este programa tan solo le agregamos las funciones de validar fecha y validar tiempo, pero aun nos hace falta el metodo con el que calculamos las horas de entradas y de salida.
