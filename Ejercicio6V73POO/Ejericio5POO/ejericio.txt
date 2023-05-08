@@ -1,0 +1,15 @@
+disenia un porgrama para trbajar con triangulos iscoceles para ello definia losa tributos necesario que se requieren proporcione metodos de consulta un metodo constructor e impremente metodos para calcular el perimetro y el area de un triangulo, ademas implementar un metdoo que a partir de un arreglo de triangulo devuelva el area del triangulo de mayor superficie
+
+
+un triangulo isoceles es aquel que tiene 2 lados iguales
+
+diagra, uml
+-----------------------------------
+-base:double (2 lados son iguales) |
+-lado:double                       |
+-----------------------------------
+Triangulo_Isoceles(double,double)  |
+getPerimetro():double              |
+getArea():double                   | 
+mostrarDatos():String              |
+-----------------------------------
